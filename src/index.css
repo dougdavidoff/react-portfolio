@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  /* background-image: url("../images/type.jpg"); */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,97 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+/* Set a background image by replacing the URL below */
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  }
+
+#reverse-type {
+  background-color: #2f9992;
+  color: white;
+  font-size: 36px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+  font-weight: bold;
+}
+
+#dtd-container {
+  width: 100%;
+} 
+
+#dtd-hedshot {
+  float: left;
+  width: 250px;
+  padding: 0px 25px 10px 0px;
+}
+
+@media (max-width: 768px) {
+  #dtd-container {
+    width: 80%;
+  }
+  #dtd-hedshot {
+    width: 150px;
+
+  }
+}
+
+@media (max-width: 400px) {
+  #dtd-container {
+    width: 100%;
+  }
+}
+
+#headline {
+  color: #2f9992;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+#sub-hed {
+  color: #2f9992;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: light;
+}
+
+#dtd-hedshot {
+  float: left;
+  width: 250px;
+  padding: 0px 25px 10px 0px;
+}
+
+/* .my-card-stlye {
+  width: 18rem;
+  padding-right: 1200px;
+  border: 0px;
+} */
+
+.link {
+  color: #2f9992
+}
+
+.card-body {
+  width: 100%;
+}
+
+.left-margin {
+  margin-left: 15px;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+#copyright {
+  text-align: center;
+  color: white;
 }
